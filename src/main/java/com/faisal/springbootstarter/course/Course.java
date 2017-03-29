@@ -17,7 +17,7 @@ public class Course {
 
 	private String description;
 
-	@ManyToOne(fetch=FetchType.LAZY)
+	@ManyToOne
 	private Topic topic;
 
 	public Course() {
